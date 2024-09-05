@@ -30,6 +30,7 @@ public class bfs_7576 {
         N = Integer.parseInt(st.nextToken());
         tomato = new int[N][M];
         nodes = new Node[]{new Node(-1, 0), new Node(1, 0), new Node(0, -1), new Node(0, 1)};
+
         Queue<Node> q1 = new LinkedList<>();
 
         for(int i=0; i<N; i++){
